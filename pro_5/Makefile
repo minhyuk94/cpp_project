@@ -1,8 +1,7 @@
 CC = gcc
 CXX = g++
 TARGET = runfile
-OBJS = main.o\
-		hello.o
+OBJS = main.o
 # OBJS 에는 반드시 필요한 오브젝트를 전부 작성해줘야함
 
 # Wall = 모든 경고를 보여주기, Werror(경보감지), 모든 경고도 에러로 감지하니까 판단 필요. 
